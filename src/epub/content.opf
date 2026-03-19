@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/akutagawa-ryunosuke/short-fiction/various-translators</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-03-19T19:50:13Z</dc:date>
+		<meta property="dcterms:modified">2026-03-19T19:50:13Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,8 +40,7 @@
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of short fiction by Akutagawa Ryūnosuke, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/akutagawa-ryunosuke"&gt;Akutagawa Ryūnosuke&lt;/a&gt; was a respected author in pre-WWII Japan; being well-read in several topics and having received a westernized education, his work blends traditional themes os Japanese culture with Western concepts. His almost 200 stories deal with a variety of themes and concepts; “The Nose” is a tale about vanity and perception of one’s image, “Rashōmon” deals with morality in the face of necessity, “The Story of a Fallen Head” is an anti-war story. Akutagawa often ends his stories with a reflection related to the plot, spoken either by one character to another or by the narrator to the reader.&lt;/p&gt;
-			&lt;p&gt;Only some of his stories have been translated into English. Collected here are the ones believed to be public domain in the U.S..&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/akutagawa-ryunosuke"&gt;Akutagawa Ryūnosuke&lt;/a&gt; was a respected author in pre-WWII Japan. He was well-read, and having received a Westernized education, his work blends traditional themes of Japanese culture with Western concepts. This edition collects the handful of English translations in the U.S. public domain of his nearly 200 short stories. The stories deal with a variety of themes and concepts: “The Nose” is a tale about vanity and perception of one’s image, “Rashōmon” deals with morality in the face of necessity, and “The Story of a Fallen Head” is an anti-war story. Akutagawa often ends his stories with a reflection related to the plot, spoken either by a character or by the narrator to the reader.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<!-- "The Ball," "Lice," "Mōri Sensei," "Rashōmon," "The Badger," "The Handkerchief," "The Nose," "The Pipe," "The Spider's Thread," "The Wine Worm" and "Tobacco and the Devil"-->
@@ -50,8 +49,8 @@
 		<!-- "The Story of a Fallen Head" and "Tu Tzuchun"-->
 		<dc:source>https://en.wikisource.org/wiki/Eminent_Authors_of_Contemporary_Japan/Volume_1</dc:source>
 		<dc:source>https://en.wikisource.org/wiki/File:Eminent_Authors_of_Contemporary_Japan.pdf</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">40295</meta>
+		<meta property="se:reading-ease.flesch">68.5</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/akutagawa-ryunosuke_short-fiction_various-translators</meta>
 		<dc:creator id="author">Akutagawa Ryūnosuke</dc:creator>
 		<meta property="file-as" refines="#author">Akutagawa, Ryūnosuke</meta>
@@ -99,6 +98,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wfw</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
